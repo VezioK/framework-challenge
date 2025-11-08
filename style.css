@@ -2,7 +2,9 @@ body{
     background-color: plum;
 }
 .navheader{
-
+    background-color: blueviolet;
+    position: sticky;
+    top: 0;
 }
 
 .navlinks{
