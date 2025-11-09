@@ -4,13 +4,13 @@ body > header.navheader {
   max-width: 100%;
   margin: 0;
   padding: 0;
-  background-color: blueviolet;
+  background-color: #3b1e7a; 
   display: flex; 
   justify-content: center; 
 }
 
 body{
-    background-color: plum;
+    background-color: #0b0f1a; 
 }
 
 .navheader nav {
@@ -38,7 +38,7 @@ body{
     height: 600px;
     margin-bottom: 50px;
     border: solid 4px;
-    border-color: yellow;
+    border-color: #00e5ff; 
 
     display: flex;               
     justify-content: center;    
@@ -46,8 +46,8 @@ body{
 }
 
 .hero-button{
-    background-color: orange;
-    color: white;
+    background-color: #ff2bd6; 
+    color: #ffffff;             
     border: none;
     padding: 10px 30px; 
     border-radius: 5px;
@@ -56,27 +56,30 @@ body{
     display: inline-block; 
     margin: 0 auto;
     border: solid 4px;
-    border-color: yellow;
+    border-color: #00e5ff; 
 }
 
 h1{
     padding: 30px;
-    
 }
 
 .image-row {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-around; 
     align-items: flex-start;
     width: 100%;
-    text-align: center; 
+    text-align: center;
+    flex-wrap: wrap; 
+    gap: 50px; 
 }
 
 .image-box {
-    flex: 1; 
+    flex: 1;
+    max-width: 400px; 
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
+    margin: 20px; 
 }
 
 .image-box img {
@@ -84,7 +87,7 @@ h1{
     height: auto;
     margin-bottom: 10px; 
     border: solid 4px;
-    border-color: yellow;
+    border-color: #00e5ff; 
 }
 
 .image-box p {
