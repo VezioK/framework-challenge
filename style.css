@@ -1,30 +1,44 @@
+/*used chat to override the pico styling for header*/
+body > header.navheader {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: blueviolet;
+  display: flex; 
+  justify-content: center; 
+}
+
 body{
     background-color: plum;
 }
-.navheader{
-    background-color: blueviolet;
-    position: sticky;
-    top: 0;
+
+.navheader nav {
+  width: 100%;
+  max-width: 1200px; 
+  margin: 0 auto;
 }
 
+/*used chat to learn about !important*/
 .navlinks{
-    display: flex;
-    justify-content: space-evenly; 
+    display: flex;               
+    justify-content: space-between !important;    
+    align-items: center !important; 
     list-style: none; 
-    align-items:center;
-    padding: 30;
-    margin-top:70px;
-    margin-bottom: 70px;
 
+    width: 100%;
+    padding: 20px 80px !important;
+    margin: 0 !important;
 }
-
 
 .hero-section{
-    background-image: url(Q6.jpg);
+    background-image: url(homepic.jpg);
     background-size: cover;
     background-position: center;
-    height: 500px;
-    margin-bottom: 100px;
+    height: 600px;
+    margin-bottom: 50px;
+    border: solid 4px;
+    border-color: yellow;
 
     display: flex;               
     justify-content: center;    
@@ -41,6 +55,13 @@ body{
     width: auto;      
     display: inline-block; 
     margin: 0 auto;
+    border: solid 4px;
+    border-color: yellow;
+}
+
+h1{
+    padding: 30px;
+    
 }
 
 .image-row {
@@ -59,9 +80,11 @@ body{
 }
 
 .image-box img {
-    width: 200px;
+    width: 360px;
     height: auto;
     margin-bottom: 10px; 
+    border: solid 4px;
+    border-color: yellow;
 }
 
 .image-box p {
